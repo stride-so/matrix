@@ -1,0 +1,74 @@
+{
+  "version": 0,
+  "author": {
+    "name" :"",
+    "email": ""
+  },
+  "company": {
+    "name": "",
+    "url": ""
+  },
+  "tracks": [
+    "Independent Contributor",
+    "Management"
+  ],
+  "themes": [
+    { 
+      "label": "Collaboration",
+      "names": [
+        "Teamwork",
+        "Communication",
+        "Feedback"
+      ]
+    },
+    { 
+      "label": "Leadership",
+      "names": [
+        "Mentoring & Learning",
+        "Alignment & Mediation",
+        "Culture",
+        "Influence"
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "name": "Level 0",
+      "track": "Independent Contributor",
+      "titles": ["Junior Engineer"],
+      "skills": [
+        {
+          "name": "Teamwork",
+          "body": "Helps teammates when asked. Gives and takes credit when due. Collaborates to deliver high quality work. Builds stable relationships internally."
+        },
+        {
+          "name": "Culture",
+          "body": "Understands and can articulate the principles and values of the team and organization."
+        },
+        {
+          "name": "Mentoring & Learning",
+          "body": "Seeks out opportunities for mentorship and education to improve their craft."
+        },
+        {
+          "name": "Influence",
+          "body": "Receives direction on tasks including their designs and technical acceptance criteria from their engineering lead."
+        }
+      ]
+    },
+    {
+      "name": "Level 1",
+      "track": "Independent Contributor",
+      "titles": ["Engineer"],
+      "skills": [
+        {
+          "name": "Teamwork",
+          "body": "Helps teammates when asked. Gives and takes credit when due. Collaborates to deliver high quality work. Builds stable relationships internally."
+        },
+        {
+          "name": "Mentoring & Learning",
+          "body": "Seeks out opportunities for mentorship and education. Occasionally helps their teammembers in an open collaborative manner in accordance with cultural values."
+        }
+      ]
+    }
+  ]
+}

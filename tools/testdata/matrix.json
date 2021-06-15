@@ -1,0 +1,158 @@
+{
+  "version": 0,
+  "author": {
+    "name" :"",
+    "email": ""
+  },
+  "company": {
+    "name": "",
+    "url": ""
+  },
+  "tracks": [
+    {
+      "name": "Independent Contributor",
+      "levels": [
+        "Level 0",
+        "Level 1"
+      ]
+    }
+  ],
+  "themes": [
+    { 
+      "title": "Collaboration",
+      "skills": [
+        "Teamwork",
+        "Communication",
+        "Feedback"
+      ]
+    },
+    { 
+      "title": "Leadership",
+      "skills": [
+        "Mentoring & Learning",
+        "Alignment & Mediation",
+        "Culture",
+        "Influence"
+      ]
+    },
+    { 
+      "title": "Delivery",
+      "skills": [
+        "Cadence & Predictability",
+        "Quality & Risk",
+        "Process"
+      ]
+    },
+    { 
+      "title": "Strategy",
+      "skills": [
+        "Budget",
+        "Product"
+      ]
+    },
+    { 
+      "title": "Technology",
+      "skills": [
+        "Design & Architecture",
+        "Security",
+        "Tradeoffs & Technical Debt",
+        "Privacy & Compliance",
+        "Testing",
+        "Clarity & Comprehension"
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "name": "Level 0",
+      "track": "Independent Contributor",
+      "titles": ["Junior Engineer"],
+      "detail": "You are learning quickly, and your new knowledge is benefitting your team. You're building software that is succeeding at the organization and your code is consistently of high quality. Deployments with your features are largely uneventful. You've established good working relationships with your peers and other members of the organization. You're working towards expanding your understanding of the companies procedures and products and adhere to the organizations cultural principles and values.", 
+      "skills": [
+        {
+          "name": "Teamwork",
+          "body": "Helps teammates when asked. Gives and takes credit when due. Collaborates to deliver high quality work. Builds stable relationships internally."
+        },
+        {
+          "name": "Communication",
+          "body": "Can clearly articulate thoughts during synchronous and asychronous events in both written and verbal form."
+        },
+        {
+          "name": "Feedback",
+          "body": "Understands constructive feedback and can solicit feedback from peers and managers in an effective and polite manner. Incorporates feedback into their ongoing process for personal growth."
+        },
+        {
+          "name": "Mentoring & Learning",
+          "body": "Seeks out opportunities for mentorship and education to improve their craft. "
+        },
+        {
+          "name": "Alignment & Mediation",
+          "body": "Shares thoughts and opinions with their teammates when appropriate. Adheres to cultural principles regarding conflict resolution."
+        },
+        {
+          "name": "Culture",
+          "body": "Understands and can articulate the principles and values of the team and organization."
+        },
+        {
+          "name": "Influence",
+          "body": "Receives direction on tasks including their designs and technical acceptance criteria from their engineering lead."
+        },
+        {
+          "name": "Cadence & Predictability",
+          "body": "Can self identify challenges with progress. Communicates proactively and is forthright asking for assistance when required."
+        },
+        {
+          "name": "Quality & Risk",
+          "body": "Recognizes and analyzes technical problems. Escalates problems to senior engineers and managers. Understands quality metrics of the team. Production releases are uneventful."
+        },
+        {
+          "name": "Process",
+          "body": "Learns and understands the organization and team SDLC. Escalates problems to senior teammates and managers."
+        },
+        {
+          "name": "Budget",
+          "body": "Awareness of budget guidelines provided for the team"
+        },
+        {
+          "name": "Product",
+          "body": "Understands the basic value and utility of the product. Owns tasks and technical components."
+        },
+        {
+          "name": "Design & Architecture",
+          "body": "Is aware of overall design patterns and architecture in use within the team. Adheres to standards within the codebase."
+        },
+        {
+          "name": "Tradeoffs & Technical Debt",
+          "body": "Maintains established standard of reliability, performance, and quality in delivered tasks."
+        },
+        {
+          "name": "Privacy & Compliance",
+          "body": "Understands the concepts of PII."
+        },
+        {
+          "name": "Testing",
+          "body": "Writes unit tests. Understands basics of testing and the test pyramid."
+        },
+        {
+          "name": "Clarity & Comprehension",
+          "body": "Code is easy to read. Follows cultural conventions that suit the language, style, codebase with architectural guidance from senior staff. Methods are small and easy to test in isolation."
+        }
+      ]
+    },
+    {
+      "name": "Level 1",
+      "track": "Independent Contributor",
+      "titles": ["Engineer"],
+      "skills": [
+        {
+          "name": "Teamwork",
+          "body": "Helps teammates when asked. Gives and takes credit when due. Collaborates to deliver high quality work. Builds stable relationships internally."
+        },
+        {
+          "name": "Mentoring & Learning",
+          "body": "Seeks out opportunities for mentorship and education. Occasionally helps their teammembers in an open collaborative manner in accordance with cultural values."
+        }
+      ]
+    }
+  ]
+}
