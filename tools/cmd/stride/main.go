@@ -1,10 +1,12 @@
-package stride
+package main
 
 import (
 	"errors"
 	"flag"
 	"fmt"
 	"os"
+
+	"github.com/stride-so/matrix/tools/models"
 )
 
 type parseCommand struct {
@@ -21,11 +23,29 @@ func newParseCommand() *parseCommand {
 }
 
 func (c *parseCommand) Init(args []string) error {
-	return c.fs.Parse(args)
+	err := c.fs.Parse(args)
+	if err != nil {
+		return err
+	}
+	if c.in == "" {
+		return fmt.Errorf("you must provide a filename using 'in'")
+	}
+	return nil
 }
 
 func (c *parseCommand) Run() error {
-	fmt.Println("would parse", c.in)
+	r, err := os.Open(c.in)
+	if err != nil {
+		return err
+	}
+	matrix, err := models.XLSXRead(r)
+	if err != nil {
+		return err
+	}
+	err = models.JSONWrite(os.Stdout, matrix)
+	if err != nil {
+		return err
+	}
 	return nil
 }
 
@@ -50,7 +70,11 @@ func root(args []string) error {
 	subCmd := os.Args[1]
 	for _, cmd := range cmds {
 		if cmd.Name() == subCmd {
-			cmd.Init(os.Args[2:])
+			err := cmd.Init(os.Args[2:])
+			if err != nil {
+				fmt.Println(err)
+				os.Exit(2)
+			}
 			return cmd.Run()
 		}
 	}

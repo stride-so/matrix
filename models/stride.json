@@ -1,72 +1,382 @@
 {
   "version": 0,
   "author": {
-    "name" :"",
-    "email": ""
+    "name": "Stride",
+    "email": "hello@stride.so"
   },
   "company": {
-    "name": "",
-    "url": ""
+    "name": "Stride",
+    "url": "https://stride.so/"
   },
-  "tracks": [
-    "Independent Contributor",
-    "Management"
-  ],
+  "tracks": null,
   "themes": [
-    { 
-      "label": "Collaboration",
-      "names": [
-        "Teamwork",
+    {
+      "title": "Collaboration",
+      "skills": [
         "Communication",
-        "Feedback"
+        "Feedback",
+        "Teamwork"
       ]
     },
-    { 
-      "label": "Leadership",
-      "names": [
+    {
+      "title": "Leadership",
+      "skills": [
         "Mentoring & Learning",
         "Alignment & Mediation",
         "Culture",
         "Influence"
+      ]
+    },
+    {
+      "title": "Delivery",
+      "skills": [
+        "Quality & Risk",
+        "Process",
+        "Cadence & Predictability",
+        "Product Management"
+      ]
+    },
+    {
+      "title": "Strategy",
+      "skills": [
+        "Budget",
+        "Product "
+      ]
+    },
+    {
+      "title": "Technology",
+      "skills": [
+        "Privacy & Compliance",
+        "Testing",
+        "Clarity & Comprehension",
+        "Design & Architecture",
+        "Security",
+        "Tradeoffs & Technical Debt"
       ]
     }
   ],
   "levels": [
     {
       "name": "Level 0",
-      "track": "Independent Contributor",
-      "titles": ["Junior Engineer"],
+      "track": "",
+      "titles": [
+        "Junior Engineer"
+      ],
+      "detail": "You are learning quickly, and your new knowledge is benefitting your team. You're building software that is succeeding at the organization and your code is consistently of high quality. Deployments with your features are largely uneventful. You've established good working relationships with your peers and other members of the organization. You're working towards expanding your understanding of the companies procedures and products and adhere to the organizations cultural principles and values.",
       "skills": [
         {
           "name": "Teamwork",
           "body": "Helps teammates when asked. Gives and takes credit when due. Collaborates to deliver high quality work. Builds stable relationships internally."
+        },
+        {
+          "name": "Communication",
+          "body": "Can clearly articulate thoughts during synchronous and asychronous events in both written and verbal form."
+        },
+        {
+          "name": "Feedback",
+          "body": "Understands constructive feedback and can solicit feedback from peers and managers in an effective and polite manner. Incorporates feedback into their ongoing process for personal growth."
+        },
+        {
+          "name": "Mentoring & Learning",
+          "body": "Seeks out opportunities for mentorship and education to improve their craft. "
+        },
+        {
+          "name": "Alignment & Mediation",
+          "body": "Shares thoughts and opinions with their teammates when appropriate. Adheres to cultural principles regarding conflict resolution."
         },
         {
           "name": "Culture",
           "body": "Understands and can articulate the principles and values of the team and organization."
         },
         {
-          "name": "Mentoring & Learning",
-          "body": "Seeks out opportunities for mentorship and education to improve their craft."
-        },
-        {
           "name": "Influence",
           "body": "Receives direction on tasks including their designs and technical acceptance criteria from their engineering lead."
+        },
+        {
+          "name": "Cadence & Predictability",
+          "body": "Can self identify challenges with progress. Communicates proactively and is forthright asking for assistance when required."
+        },
+        {
+          "name": "Product Management",
+          "body": "Appreciates the impact the work they're performing will have on the team and organization."
+        },
+        {
+          "name": "Quality & Risk",
+          "body": "Recognizes and analyzes technical problems. Escalates problems to senior engineers and managers. Understands quality metrics of the team. Production releases are uneventful."
+        },
+        {
+          "name": "Process",
+          "body": "Learns and understands the organization and team SDLC. Escalates problems to senior teammates and managers."
+        },
+        {
+          "name": "Budget",
+          "body": "Awareness of budget guidelines provided for the team"
+        },
+        {
+          "name": "Product ",
+          "body": "Understands the basic value and utility of the product. Owns tasks and technical components."
+        },
+        {
+          "name": "Design & Architecture",
+          "body": "Is aware of overall design patterns and architecture in use within the team. Adheres to standards within the codebase."
+        },
+        {
+          "name": "Security",
+          "body": "Understands the importance of security. Adheres to the teams security policies."
+        },
+        {
+          "name": "Tradeoffs & Technical Debt",
+          "body": "Maintains established standard of reliability, performance, and quality in delivered tasks."
+        },
+        {
+          "name": "Privacy & Compliance",
+          "body": "Understands the concepts of PII"
+        },
+        {
+          "name": "Testing",
+          "body": "Writes unit tests. Understands basics of testing and the test pyramid."
+        },
+        {
+          "name": "Clarity & Comprehension",
+          "body": "Code is easy to read. Follows cultural conventions that suit the language, style, codebase with architectural guidance from senior staff. Methods are small and easy to test in isolation."
         }
       ]
     },
     {
       "name": "Level 1",
-      "track": "Independent Contributor",
-      "titles": ["Engineer"],
+      "track": "",
+      "titles": [
+        "Engineer"
+      ],
+      "detail": "You are a solid contributor on your team with a solid grasp of the breadth and depth of the team's codebaseYou have built/owned features that were successful at The Company's. Your work is consistently high quality; you are active in contributing to insuring your team's work is high qualityYou have established good work relationships with people throughout The Company's. You are participating in the design and implementation of medium-sized features or subsystems. You drive discussion of and decisions regarding technical topics important to your team. You participate in technical discussions constructively You support The Company's tech culture principles",
       "skills": [
         {
           "name": "Teamwork",
-          "body": "Helps teammates when asked. Gives and takes credit when due. Collaborates to deliver high quality work. Builds stable relationships internally."
+          "body": "Actively participates in meetings and events. May assist with technical interviews."
+        },
+        {
+          "name": "Communication",
+          "body": "Communicates clearly, consicely, and effectively on both technical and non-technical topics to their teammates. Practices active listening. Contributes to the teams documentation."
+        },
+        {
+          "name": "Feedback",
+          "body": "Can provide praise and feedback to teammates and managers in a helpful manner."
         },
         {
           "name": "Mentoring & Learning",
           "body": "Seeks out opportunities for mentorship and education. Occasionally helps their teammembers in an open collaborative manner in accordance with cultural values."
+        },
+        {
+          "name": "Alignment & Mediation",
+          "body": "Has conversations based on organizational strategy and principles with their teammates when appropriate. Strongly oriented towards goals and works towards their team's goals."
+        },
+        {
+          "name": "Cadence & Predictability",
+          "body": "Clarifies expectations with their team. Commits to an achievable amount of work and sets expectations accordingly."
+        },
+        {
+          "name": "Product Management",
+          "body": "Can estimate effort required to deliver properly scoped tasks"
+        },
+        {
+          "name": "Quality & Risk",
+          "body": "Can identify dependencies and technical problems. Can handle many issues while following the proper escalation procedures. Communicates with senior engineers and managers."
+        },
+        {
+          "name": "Process",
+          "body": "Understands priorities and acts accordingly. Adheres to the defined SDLC."
+        },
+        {
+          "name": "Budget",
+          "body": "Awareness of budget guidelines provided for the team. Can control costs related to their own work"
+        },
+        {
+          "name": "Product ",
+          "body": "Understands product area of focus, how it fits into the overall business, and sometimes makes improvement suggestions for it."
+        },
+        {
+          "name": "Design & Architecture",
+          "body": "Understands patterns and architecural decisions in use within the team and can articulate the tradeoffs between these patterns and alternatives. Adheres to the team standards."
+        }
+      ]
+    },
+    {
+      "name": "Level 2",
+      "track": "",
+      "titles": [
+        "Senior Engineer"
+      ],
+      "detail": "You are consistently productive and reliable\n You have a broad understanding of The Company's technologies and business\n You play a leading role in the design, development, deployment of a successful system\n Your experience is sought out by others, and you are held up as a role model in your division\n You continually better the solutions of others and think in terms of architecture, not just code\n You distill the essence of conflicts, harmonize views, find the best way forward, and lead people to that outcome\n You actively mentor junior team members and better your peers and work to make other people more productive\n You support and foster The Company's tech culture principles through recruiting, employee mentoring, and team participation",
+      "skills": [
+        {
+          "name": "Teamwork",
+          "body": "Acts as a technical resource and sounding board. Participates in technical interviews for engineering team hires."
+        },
+        {
+          "name": "Communication",
+          "body": "Can identify non-verbal queues when listening. Speaks with an audience-oriented mindset. Recognizes conflict and tension."
+        },
+        {
+          "name": "Feedback",
+          "body": "Can provide praise and feedback to stakeholders in a helpful and collaborative manner."
+        },
+        {
+          "name": "Mentoring & Learning",
+          "body": "Mentors team members in an open, collaborative, and patient manner in accordance with cultural values. "
+        },
+        {
+          "name": "Alignment & Mediation",
+          "body": "Has conversations based on organizational strategy and principles with their teammates when appropriate to ensure team alignment. Strongly oriented towards goals and ensures their team is continuously working towards their shared goals."
+        },
+        {
+          "name": "Influence",
+          "body": "Oversees & owns entire features."
+        },
+        {
+          "name": "Quality & Risk",
+          "body": "Ensures tasks are prioritized properly and that all dependencies are mapped and resolved. Anticipates any delays and proactively communicates with stakeholders."
+        },
+        {
+          "name": "Process",
+          "body": "Works towards milestones with little to no supervision. Identifies and adopts engineering best practices that make sense for the organizations engineering team."
+        },
+        {
+          "name": "Budget",
+          "body": "Understands milestones in projects from a time + resource perspective."
+        },
+        {
+          "name": "Product ",
+          "body": "Thoroughly understands the business model in relation to their current product focus area. Sometimes participates in roadmap feedback with product team. Looks for opportunities to simplify product & technical design."
+        },
+        {
+          "name": "Design & Architecture",
+          "body": "Provides technical leadership and direction in the implementation of large new product features."
+        }
+      ]
+    },
+    {
+      "name": "Level 3",
+      "track": "",
+      "titles": [
+        "Staff Engineer"
+      ],
+      "detail": "You stand out from your peers in the efficiency with which you solve problems and the comprehensive solutions you provide\n \n You play a leading role in the design, development, deployment of multiple systems or products\n \n You think in terms of optimal technical solutions for business problems\n \n You are effective in working on business problems with non-technical peers in the organization\n \n You actively advocate, improve, and stand up for The Company's tech culture principles",
+      "skills": [
+        {
+          "name": "Teamwork",
+          "body": "Defines delegates and tracks project level work while maintaining transparency in a way that aligns with cultural values"
+        },
+        {
+          "name": "Communication",
+          "body": "Promotes a culture of clairty and competence of thought. Works well with all teammates and all team stakeholders. Can adjust style and language based on the situation in a dynamic fashion."
+        },
+        {
+          "name": "Feedback",
+          "body": "Actively fosters a culture of constructive feedback within their team and between their team and stakeholders. "
+        },
+        {
+          "name": "Mentoring & Learning",
+          "body": "Proactively mentors other team members. Designs and facilitates technical interview procedures. Represents the organization in synchronous and asynchronous events and other industry functions."
+        },
+        {
+          "name": "Alignment & Mediation",
+          "body": "Fosters a culture within their team of having conversations based on organizational strategy and principles to create alignment. Strongly oriented towards goals and ensures their team is continuously working towards their goals."
+        },
+        {
+          "name": "Influence",
+          "body": "Leads technical projects. Collaborates with managers on product led initiatives."
+        },
+        {
+          "name": "Process",
+          "body": "Delivers process improvements that increase the velocity and quality of the entire team. Contributes to the development, build, deployment, and monitoring processes with an emphasis on realibility and performance."
+        },
+        {
+          "name": "Budget",
+          "body": "Understands budget consequences. Can forecast costs for projects and compare them to business constraints to determine viability."
+        },
+        {
+          "name": "Product ",
+          "body": "Evaluates and creates new product features in collaboration with the product team. Regularly participates in the creation of the team roadmap and ensuing feedback. Simplifies product and technical design through proactive conversations."
+        },
+        {
+          "name": "Design & Architecture",
+          "body": "Provide technical guidance and leadership through the implementation and delivery of large technical projects that cross-cut products (e.g. upgrading system versions and refactoring integral product components); conduct directed research and development and provide technical analysis of new candidate technologies that fill an engineering team business or technical need"
+        }
+      ]
+    },
+    {
+      "name": "Level 4",
+      "track": "",
+      "titles": [
+        "Senior Staff Engineer"
+      ],
+      "detail": "You have a broad and deep understanding of The Company's's business and how technology fits into making them great\n \n You play a leading role in the design, development, deployment of critical, large scale projects and or the launch of new products\n \n You think in terms of optimal solutions for business problems and applicable technology\n \n You distill the essence of conflicts, harmonize views, find the best way forward, and lead people to that outcome when working with cross functional teams, not just engineers\n \n You are skilled in working on business problems with non-technical peers in the organization\n \n You actively advocate, improve, and stand up for The Company's's tech culture principles",
+      "skills": [
+        {
+          "name": "Teamwork",
+          "body": "Leads cross department technical projects; defines and oversee multiple projects for teams while ensuring visibility to the business"
+        },
+        {
+          "name": "Communication",
+          "body": "Can communicate with all team stakeholders at varying levels of detail using different and appropriate styles. Can adjust to nonverbal communication queues."
+        },
+        {
+          "name": "Mentoring & Learning",
+          "body": "Proactively mentors other team members. Fosters a culture of education and personal growth. Collaborates with other mentors, and educates other mentors on the team."
+        },
+        {
+          "name": "Alignment & Mediation",
+          "body": "Fosters a culture across several teams of of having conversations based on organizational strategy and principles to create alignment. Strongly oriented towards goals and ensures several teams are continuously working towards their goals."
+        },
+        {
+          "name": "Process",
+          "body": "Delivers process improvements that increase the velocity and quality of the entire organization. Contributes to the build, deployment, and monitoring processes with an emphasis on reliability and performance."
+        },
+        {
+          "name": "Budget",
+          "body": "Leads the resources and budgets from a techincal resource perspective on entire projects."
+        },
+        {
+          "name": "Product ",
+          "body": "Oversees and owns midsized projects and mission critical subject matter. Seen as a subject matter expert on the technical implementation of projects. Understands the product behaviour and can provide suggestions on long-term product viability from a maintenance and technical perspective. Recognizes product opportunities and differentiators in relation to the competition. Often helps refine roadmaps across teams based on technical strategy & constraints. Helps to define & create new product abilities by changing technical strategy or constraints."
+        },
+        {
+          "name": "Design & Architecture",
+          "body": "(+) and (e.g. adoption of replacement technologies and protocols); maintain a personal research and development program, intended to identify ways in which The Company's can benefit from industry innovations"
+        }
+      ]
+    },
+    {
+      "name": "Level 5",
+      "track": "",
+      "titles": [
+        "Principal Engineer"
+      ],
+      "detail": "You stand out from your peers in the application of technology to business problems by anticipating upcoming trends, potential problems, and emerging technologies\n \n \n You have successfully led the architecture and development of the most complex and critical systems in the company and support others through mentorship\n \n You coach and advised others in their leading role in the design, development, deployment of critical, large scale projects and or the launch of new products through the use of new technologies and methodologies\n \n You distill the essence of conflicts, harmonize views, find the best way forward, and lead people to that outcome working with leadership teams across the company and seek senior leadership alignment\n \n You actively advocate, improve, and stand up for The Company's's tech culture principles",
+      "skills": [
+        {
+          "name": "Teamwork",
+          "body": "Leads organization technical projects; defines and oversee multiple projects for teams while ensuring visibility to the business"
+        },
+        {
+          "name": "Communication",
+          "body": "Can communicate appropriately scoped information across multiple teams using different styles. Acts as a representative both internally and externally for the team and organization where appropriate."
+        },
+        {
+          "name": "Mentoring & Learning",
+          "body": "Proactively mentors members across teams. Interviews technical leadership roles and other team hires. Mentors senior technical staff across the organization. Actively promotes a culture of growth and continuous education."
+        },
+        {
+          "name": "Alignment & Mediation",
+          "body": "Fosters a culture across the organization of of having conversations based on organizational strategy and principles to create alignment. Ensures goals are understood and continuously worked towards across the organization."
+        },
+        {
+          "name": "Product ",
+          "body": "Actively seeks to create or redefine roadmaps across the organization with product & business counterparts. "
+        },
+        {
+          "name": "Design & Architecture",
+          "body": "(+) and provide new technology insights to remainder of engineering department and senior leadership team"
         }
       ]
     }
