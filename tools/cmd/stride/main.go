@@ -61,7 +61,7 @@ type runner interface {
 
 func root(args []string) error {
 	if len(args) < 1 {
-		return errors.New("you must pass a command")
+		return errors.New("try 'stride parse -in <filename.xlsx>'")
 	}
 	cmds := []runner{
 		newParseCommand(),

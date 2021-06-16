@@ -1,8 +1,9 @@
 # Software Engineering Competency Matrix
 
-This repository contains an open compentency model for Software Engineers.
-It includes a standard data structure as well as a basic tool for transposing 
-that data structure into friendlier formats like job postings and skills matrices. 
+This repository contains an ["Open Competency Matrix"][2] for Software
+Engineers. It includes a standard data structure as well as a basic tool for
+transposing that data structure into friendlier formats like job postings and
+tables for human consumption.
 
 This is an open-source project and all contents here are licensed appropriately.
 You are encouraged to add your own organizations skills matrix to this
@@ -30,7 +31,7 @@ encourage them to adopt one.
 ## How do I read a Competency Matrix?
 
 This repository contains a `models` directory which contains JSON encoded
-representations of a comptency `matrix`.  Each matrix file encodes several
+representations of a competency `matrix`.  Each matrix file encodes several
 dimensions of information.
 
 1. The levels and titles used within the matrix.
@@ -57,13 +58,18 @@ limitation. You can also copy the JSON representation in the models folder and
 change your new file.
 
 If you would like to include your matrix in this repository there is a tool that
-lets you convert the matrix layout of the [example comptency matrix][4] into the
-JSON representation. Copy the Google Sheet, make your edits, then export the
-sheet as an `.xlsx` file. Then run the tool against that file. You will need `go`
-installed on your machine.
+lets you convert the matrix layout of the [example comptency matrix][2] into the
+JSON representation. 
 
-```
+1. Copy the Google Sheet
+2. make your edits then export the sheet as an `.xlsx` file. 
+3. Then run the tool against that file. 
+
+You will need `go` installed on your machine.
+
+```shell
 $ go install github.com/stride-so/matrix/tools/cmd/stride@latest
+$ stride parse -in filename.xlsx > filename.json
 ```
 
 ### Why don't the role titles match my organization?
@@ -89,5 +95,5 @@ security, hardware, constraints, trade-offs, etc.
 
 <!--- links --->
 [2]: https://docs.google.com/spreadsheets/d/1Qj2FTqKsuHPqnMyDNUFKi-RiiCU77EWuQwVODS4lS18/edit#gid=1772650517
-[3]: https://stride.so/
+[3]: https://github.com/stride-so/matrix/compare
 [4]: ./docs/DESIGN.md
