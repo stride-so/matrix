@@ -18,10 +18,10 @@ $ git clone git@github.com/stride-so/matrix.git
 
 ## What is a Competency Matrix?
 
-A skills comptency matrix is a **tool** that is used to provide team members
+A skills competency matrix is a **tool** that is used to provide team members
 with information on what a roles expectations are. By extension the matrix also
-communications what skills and capabilities are required in order to to advance
-to the next stage of their career. While a compentency matrix not a
+communications what skills and capabilities are required in order to advance
+to the next stage of their career. While a competency matrix is not a
 comprehensive list of every single skill, it is a framework that helps you have
 conversations with your managers to get more actionable advice and information. 
  
@@ -45,15 +45,15 @@ format and layout is [described in this document][4].
 
 ## FAQ
 
-### Can I add my companies matrix?
+### Can I add my company's matrix?
 
 Yes! Please!
 
 ### How do I make my own matrix?
 
-You can do make your own matrix by copying what already exists and changing it
+You can make your own matrix by copying what already exists and changing it
 to something that suits your organization better. You can copy the [stride open
-compentency matrix][4] to something you can edit then use that without
+competency matrix][4] to something you can edit, then use that without
 limitation. You can also copy the JSON representation in the models folder and
 change your new file.
 
